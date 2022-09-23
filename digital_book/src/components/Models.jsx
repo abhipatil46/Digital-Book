@@ -3,6 +3,7 @@ import { useState } from 'react'
 import '../App.css'
 import './css/Models.css'
 import { getModelData, SetModelData } from './Models_Data'
+import './css/style.css'
 
 const Models = () => {
 
