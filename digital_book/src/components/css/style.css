@@ -1,0 +1,17 @@
+
+.main_line{
+    background-color:#e16411;
+    margin-top: 15px;
+    height: 5px;
+    width: 70px;
+    margin-left: 515px;
+    border-radius: 10px;
+  }
+  #footer_main{
+    position: sticky;
+    bottom: 3px;
+    
+  }
+  #return_maindiv{
+    height: 450px;
+  }

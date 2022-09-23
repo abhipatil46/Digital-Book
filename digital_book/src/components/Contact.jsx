@@ -1,8 +1,8 @@
 import React from 'react'
-import '../App.css'
+import './css/style.css'
 const Contact = () => {
   return (
-    <div className='container'>
+    <div className='container mb-3'>
       <section>
         <div className="text-center">
           <h2>Contact Us</h2>
@@ -19,7 +19,7 @@ const Contact = () => {
                   <label className="form-label">Email</label>
                   <input type="email" className="form-control" required name="email" />
                 </div>
-               
+
                 <div className="mb-3">
                   <label className="form-label">Subject</label>
                   <input type="text" className="form-control" id="" name="subject" required />
@@ -37,21 +37,25 @@ const Contact = () => {
             {/* contact info start */}
             <div className='contactinfo col-md-6 m-3 '>
               <h4>Contact Info</h4><br />
-              <h5>Address</h5><br/>
-                <p>203,Mit College, Aurangabad, Maharashtra,India</p>
-                <br/>
-                  <h5>Phone</h5>
-                  <p style={{color:'#fd5d52'}}>91+ 9561966060</p><br/>
-                    <h5>Email Address</h5>
-                    <p style={{color:'#fd5d52'}}>sagarchavan644441@gmail.com</p><br/>
+              <h5>Address</h5><br />
+              <p>203,Mit College, Aurangabad, Maharashtra,India</p>
+              <br />
+              <h5>Phone</h5>
+              <p style={{ color: '#fd5d52' }}>91+ 9561966060</p><br />
+              <h5>Email Address</h5>
+              <p style={{ color: '#fd5d52' }}>sagarchavan644441@gmail.com</p><br />
 
-                    </div>
-
-                  </div>
-                </div>
-              </section>
             </div>
-            )
+
+          </div>
+        </div>
+      </section>
+
+      <div className='m-5'><br/></div>
+  
+
+    </div>
+  )
 }
 
-            export default Contact
+export default Contact
